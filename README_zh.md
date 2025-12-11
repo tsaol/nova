@@ -15,6 +15,7 @@
   - 视频理解：支持视频分析、问答和内容摘要
   - 视频创建：支持从文本或图像生成视频
 - 📝 **文本生成**：支持流式和非流式文本生成
+- 🔢 **多模态嵌入 (MME)**：为文本和图像生成嵌入向量，用于语义搜索和相似度比较
 
 ## 前置条件
 
@@ -76,6 +77,15 @@ python3 text/nova_text_generation.py
 python3 text/nova_text_generation_streaming.py
 ```
 
+### 多模态嵌入 (MME)
+```bash
+# 文本嵌入
+python3 mme/nova_mme_demo.py
+
+# 图像嵌入
+python3 mme/nova_image_embedding_demo.py
+```
+
 ## 技术规格
 
 ### 图像理解
@@ -128,6 +138,9 @@ bedrock-nova/
 │   ├── nova_image_creation.py
 │   ├── nova_image_understanding.py
 │   └── test1.png
+├── mme/
+│   ├── nova_mme_demo.py
+│   └── nova_image_embedding_demo.py
 ├── text/
 │   ├── nova_text_generation.py
 │   └── nova_text_generation_streaming.py

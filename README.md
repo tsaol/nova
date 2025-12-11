@@ -15,6 +15,7 @@ A comprehensive collection of examples demonstrating the capabilities of Amazon 
   - Video understanding: analysis, Q&A, and content summarization
   - Video creation: generate videos from text or images
 - 📝 **Text Generation**: Both streaming and non-streaming text generation capabilities
+- 🔢 **Multimodal Embeddings (MME)**: Generate embeddings for text and images for semantic search and similarity comparison
 
 ## Prerequisites
 
@@ -76,6 +77,15 @@ python3 text/nova_text_generation.py
 python3 text/nova_text_generation_streaming.py
 ```
 
+### Multimodal Embeddings (MME)
+```bash
+# Text embedding
+python3 mme/nova_mme_demo.py
+
+# Image embedding
+python3 mme/nova_image_embedding_demo.py
+```
+
 ## Technical Specifications
 
 ### Image Understanding
@@ -128,6 +138,9 @@ bedrock-nova/
 │   ├── nova_image_creation.py
 │   ├── nova_image_understanding.py
 │   └── test1.png
+├── mme/
+│   ├── nova_mme_demo.py
+│   └── nova_image_embedding_demo.py
 ├── text/
 │   ├── nova_text_generation.py
 │   └── nova_text_generation_streaming.py
