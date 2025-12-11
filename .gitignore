@@ -19,3 +19,7 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+mme/target/classes/com/example/NovaImageEmbeddingDemo.class
+mme/target/classes/com/example/NovaTextEmbeddingDemo.class
+mme/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+mme/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
