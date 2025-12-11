@@ -8,7 +8,7 @@ import boto3
 
 
 def main():
-    """最基本的 Nova MME 使用示例"""
+    """ Nova MME 使用示例"""
     
     # 1. 创建 Bedrock Runtime 客户端
     bedrock_runtime = boto3.client(

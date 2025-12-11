@@ -18,7 +18,7 @@ def main():
     )
     
     # 2. 加载图片并转换为 base64
-    image_path = "../images/test1.png"
+    image_path = "images/test1.png"
     print(f"正在加载图片: {image_path}")
     
     with open(image_path, "rb") as image_file:
@@ -44,7 +44,7 @@ def main():
     print("正在调用 Nova Multimodal Embeddings 模型...")
     response = bedrock_runtime.invoke_model(
         body=json.dumps(request_body),
-        modelId="amazon.nova-embedding-v1:0",
+        modelId="amazon.nova-2-multimodal-embeddings-v1:0",
         accept="application/json",
         contentType="application/json",
     )
