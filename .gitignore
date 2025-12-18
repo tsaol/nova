@@ -1,6 +1,12 @@
 # Ignore cx directory
 cx/
 
+# Ignore performance images
+performance/images/
+
+# Maven
+target/
+
 # Python
 *.py[cod]
 *$py.class
