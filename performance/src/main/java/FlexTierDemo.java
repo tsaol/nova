@@ -79,7 +79,7 @@ public class FlexTierDemo {
 
             // 构建 InvokeModel 请求，添加 serviceTier
             InvokeModelRequest request = InvokeModelRequest.builder()
-                    .modelId("us.amazon.nova-2-lite-v1:0")
+                    .modelId("global.amazon.nova-2-lite-v1:0")
                     .contentType("application/json")
                     .accept("application/json")
                     .body(SdkBytes.fromUtf8String(requestBody.toString()))
