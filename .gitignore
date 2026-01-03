@@ -4,6 +4,25 @@ cx/
 # Ignore performance images
 performance/images/
 
+# Performance test data (large files)
+performance/concurrent_96h_data_*/
+performance/24h_test_data/
+performance/reports/
+performance/test_5min_data/
+performance/text_test_backup_*/
+
+# Performance logs and temp files
+performance/*.log
+performance/*.pid
+performance/chart_*.png
+performance/charts/
+performance/charts_server/
+performance/timeseries_charts/
+
+# Backup files
+performance/*_backup*
+performance_backup_*.tar.gz
+
 # Maven
 target/
 
